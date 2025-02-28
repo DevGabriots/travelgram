@@ -1,18 +1,44 @@
 header{
     padding-block: 32px;
+    font: var(--font-family);
+    color: var(--text-secondary);
 }
 #perfil{
     display: flex;
     gap: 32px;
+   align-items: center;
 }
 p{
     font-size: 14px;
     line-height: 170%;
     height: 120px;
     width: 384px;
+    font-family: var(--font-family);
 }
 h1{
-    color: var(--text-primary);
     font-size: 32px;
     line-height: 125%;
+    font-weight: bold;
+    font-family: var(--font-family);
+    margin-bottom: 8px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+}
+#info li{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+   
+}
+#perfil > div{
+    max-width: 384px;
 }

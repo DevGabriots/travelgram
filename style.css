@@ -14,9 +14,9 @@
     --shape-transparency:#ffffff91;
     --text-primary: #313131;
     --text-secundary: #6c6c6c;
-    --h1: 32px, 125%;
-    --p: 14px, 170%;
-    --ps:12px, 170%;
+    --h1: 32px/125%, bold, var(--font-family);
+    --p: 14px/170%, normal, var(--font-family);
+    --ps:12px/170% , normal, var(--font-family);
 }
 body{
     background-color: var(--background-color);
