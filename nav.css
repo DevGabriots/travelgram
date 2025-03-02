@@ -12,6 +12,7 @@ nav ul{
    align-items: center;
    padding-block: 8;
    gap: 24px;
+   color: var(--text-secundary)
 }
 nav ul li:last-child img{
     width: 40px;
