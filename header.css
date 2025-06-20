@@ -42,3 +42,59 @@ header .container{
 #perfil > div{
     max-width: 384px;
 }
+
+@media (width <= 27rem) {
+   & header{
+    padding-block: 2rem;
+    font: var(--font-family);
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+}
+& #perfil{
+    display: flex;
+    gap: 1rem;
+   align-items: center;
+   flex-direction: column;
+   & img:nth-child(1){
+    margin-right: auto;
+   }
+}
+& p{
+    font-size: 0.875rem;
+    line-height: 170%;
+    height: 120px;
+    max-width: 18.5rem;
+    font-family: var(--font-family);
+}
+& h1{
+    font-size: 1.5rem;
+    line-height: 125%;
+    font-weight: bold;
+    font-family: var(--font-family);
+    margin-bottom: 8px;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+   
+    
+}
+#info{
+    display: flex;
+   margin-right: 10rem;
+    flex-direction: column;
+    list-style: none;
+    
+}
+#info li{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+   
+}
+#perfil > div{
+    max-width: 18.5rem;
+}
+}

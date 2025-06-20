@@ -3,8 +3,18 @@ footer{
     padding-block: 24px;
     gap: 24px;
     align-items: center;
-    font: 14px/150% var(--font-family)
+    font: 14px/150% var(--font-familyt)
 }
 footer span:nth-child(1){
     margin-right: auto;
+ 
+}
+footer .terms{
+    gap: 1rem;
+}
+@media (width <= 27rem) {
+   & footer{
+    display: grid;
+    grid-template-columns: 1;
+   }
 }

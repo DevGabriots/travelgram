@@ -15,6 +15,32 @@ nav ul{
    color: var(--text-secundary)
 }
 nav ul li:last-child img{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+@media (width <= 27rem) {
+    & body {
+        max-width: 22.5rem;
+    }
+    & nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+& nav ul{
+    list-style: none;
+   display: flex;
+   align-items: center;
+   padding-block: 8;
+   gap: .5rem;
+   color: var(--text-secundary)
+}
+& .desktop-only {
+    display: none;
+}
 }
