@@ -88,13 +88,13 @@ header .container{
     list-style: none;
     
 }
-#info li{
+& #info li{
     display: flex;
     gap: .5rem;
     align-items: center;
    
 }
-#perfil > div{
+& #perfil > div{
     max-width: 18.5rem;
 }
 }
